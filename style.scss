@@ -129,7 +129,7 @@ body {
     }
     &__imagewrap {
         grid-area: image;
-        background: url("/images/pattern-bg.svg");
+        background: url("images/pattern-bg.svg");
         background-size: contain;
         background-repeat: no-repeat;
         padding: 10%;
@@ -144,7 +144,7 @@ body {
     }
     &__textwrap {
         grid-area: text;
-        background: url("/images/pattern-quotes.svg"), url("/images/pattern-curve.svg");
+        background: url("images/pattern-quotes.svg"), url("images/pattern-curve.svg");
         background-position: 40% 40%, bottom left;
         background-size: auto, auto;
         background-repeat: no-repeat, no-repeat;
