@@ -133,7 +133,7 @@ body {
   display: -ms-grid;
   display: grid;
   grid-gap: 20px;
-      grid-template-areas: "image" "text";
+      grid-template-areas: "image" "text";
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -145,7 +145,7 @@ body {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: image;
-  background: url("/images/pattern-bg.svg");
+  background: url("images/pattern-bg.svg");
   background-size: contain;
   background-repeat: no-repeat;
   padding: 10%;
@@ -174,7 +174,7 @@ body {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: text;
-  background: url("/images/pattern-quotes.svg"), url("/images/pattern-curve.svg");
+  background: url("images/pattern-quotes.svg"), url("images/pattern-curve.svg");
   background-position: 40% 40%, bottom left;
   background-size: auto, auto;
   background-repeat: no-repeat, no-repeat;
@@ -205,6 +205,10 @@ body {
   font-weight: 500;
 }
 
+.hero__controls {
+  position: relative;
+}
+
 #customize-controls {
   list-style-type: none;
   position: relative;
@@ -218,6 +222,21 @@ body {
   display: -ms-flexbox;
   display: flex;
   z-index: 100;
+}
+
+@media (min-width: 460px) {
+  #customize-controls {
+    position: absolute;
+    left: 62%;
+    max-width: 600px;
+    top: 43vw;
+  }
+}
+
+@media (min-width: 1370px) {
+  #customize-controls {
+    top: 600px;
+  }
 }
 
 #customize-controls:focus {
@@ -261,11 +280,6 @@ body {
     text-align: left;
     margin-right: -30%;
     font-size: 1.2em;
-  }
-  #customize-controls {
-    max-width: 600px;
-    top: 92vw;
-    margin: auto;
   }
 }
 

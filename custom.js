@@ -7,7 +7,7 @@ let slider = tns({
     mouseDrag: false,
     // arrowKeys: true,
     // autoplay: false,
-    loop: false,
+    loop: true,
     // fixedWidth: 1440,
     controls: true,
     controlsContainer: '#customize-controls',
