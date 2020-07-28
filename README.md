@@ -10,4 +10,4 @@ Thanks for checking out this front-end coding challenge.
 
 ----------------
 
-CSS GRID | TINY-SLIDER.JS 
+CSS Grid | Flexbox | Responsive | Mobile-first | [Tiny-slider Javascript](https://github.com/ganlanyuan/tiny-slider)
