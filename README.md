@@ -10,4 +10,6 @@ Thanks for checking out this front-end coding challenge.
 
 ----------------
 
+View on [Github Pages](https://kfairris.github.io/20200726-css-testimonial-slider/).
+
 CSS Grid | Flexbox | Responsive | Mobile-first | [Tiny-slider Javascript](https://github.com/ganlanyuan/tiny-slider)
